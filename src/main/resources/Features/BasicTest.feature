@@ -1,6 +1,6 @@
 Feature: Cv Creation
 
-  @Regression
+  @Regression @Smoke
   Scenario: Fill the personal data
     Given I open application
     When I set the name "Piotr"
