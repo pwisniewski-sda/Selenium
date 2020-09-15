@@ -4,3 +4,5 @@
 /compiler.xml
 /build/
 /target/
+/libraries/
+/.idea/
