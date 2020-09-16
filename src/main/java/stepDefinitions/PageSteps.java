@@ -22,6 +22,7 @@ public class PageSteps implements En {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        //blablabla
 
         mainPage = new MainPage(driver);
         personalDataPage = new PersonalDataPage(driver);
