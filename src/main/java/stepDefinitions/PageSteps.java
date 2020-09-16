@@ -22,6 +22,7 @@ public class PageSteps implements En {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        //bubububu
         //blablabla
 
         mainPage = new MainPage(driver);
@@ -45,7 +46,7 @@ public class PageSteps implements En {
         });
 
         Then("The surname {string} is visible in preview", (String surname) -> {
-
+            driver.close();
         });
 
 
